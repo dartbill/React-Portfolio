@@ -4,3 +4,4 @@ export { PortfolioCard } from './PortfolioCard';
 export { ShortAboutMe } from './ShortAboutMe';
 export { ContactMeBtn } from './ContactMeBtn';
 export { AboutMe } from './AboutMe';
+export { ContactForm } from './ContactForm';

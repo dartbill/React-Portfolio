@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
+import * as Components from '../../components'
 
 export const ContactPage = () => {
 
   return (
     <main>
       <title>Billie Dartnell</title> 
-      <p> Hello from contact page  </p>
+      <Components.ContactForm/>
     </main>
   );
 }
