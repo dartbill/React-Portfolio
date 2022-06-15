@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from 'react';
 
-import { Title } from '../../components';
-
-export const HomePage = () => {
+export const ContactPage = () => {
 
   return (
     <main>
       <title>Billie Dartnell</title> 
-      <Title/>
+      <p> Hello from contact page  </p>
     </main>
   );
 }
