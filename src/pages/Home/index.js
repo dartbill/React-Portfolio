@@ -1,13 +1,16 @@
 import React, { useEffect, useState } from 'react';
 
-import { Title } from '../../components';
+import * as Components from '../../components'
 
 export const HomePage = () => {
 
   return (
     <main>
       <title>Billie Dartnell</title> 
-      <Title/>
+      <Components.Title/>
+      <Components.PortfolioCard/>
+      <Components.ShortAboutMe/>
+      <Components.ContactMeBtn/>
     </main>
   );
 }
