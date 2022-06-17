@@ -15,6 +15,7 @@ export const HomePage = () => {
       <Components.PortfolioCard/>
       <Components.PortfolioCard/>
       </div>
+      <Components.MoreProjectsBtn/>
       <Components.ShortAboutMe/>
       <Components.ContactMeBtn/>
     </main>
