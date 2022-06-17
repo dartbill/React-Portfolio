@@ -10,7 +10,7 @@ export const Title = () => {
     <div className={styles.mainContainer}>
 
     <div className={styles.container}>
-        <h1 className={styles.homepage}  >Hi, </h1>
+        <h1 className={`${styles.homepage} ${styles.colour}`}>Hi, </h1>
         <h1 className={styles.homepage} >My name is Billie</h1>
     </div>
 
