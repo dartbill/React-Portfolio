@@ -11,9 +11,9 @@ export const ShortAboutMe = () => {
 
     return (
 <>
+        <h2 className={styles.title} >A little bit about me</h2>
 <div className={styles.imgContainer}>
 <div className={styles.container}>
-        <h2 id="subTitle" >A little bit about me</h2>
 
         <div>
           <div>
