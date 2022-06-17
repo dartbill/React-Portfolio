@@ -1,15 +1,14 @@
 import React from 'react';
 // import { useNavigate } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
-import './style.css'
+import styles from "./style.module.css"
 
 
 export const NavBar = () => {
 
     return (
-        <nav className='Navcontainer'>
+        <nav className={styles.Navcontainer}>
         {/* <a href='//getfutureproof.co.uk/' target="_blank" rel="noopener noreferrer"> futureproof </a> */}
         <NavLink to='/'>Home</NavLink>
         <NavLink to='/about'>About</NavLink>
