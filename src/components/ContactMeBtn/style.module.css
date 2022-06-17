@@ -5,3 +5,9 @@
     text-align: center;
     height: 50vh;
 }
+
+.text{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60px;
+    color: #1CFEBA;
+}
