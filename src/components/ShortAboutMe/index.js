@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import { ContactForm } from '../ContactForm';
 
 import styles from './style.module.css'
-
+import img from "./IMG_3721.png"
 
 
 export const ShortAboutMe = () => {
@@ -39,8 +39,8 @@ export const ShortAboutMe = () => {
         </div>
 </div>
 
-          <div >
-              <p>  this is where an img of me needs to go </p>
+          <div className={styles.imgs} >
+          <img src={img}  width="600" alt="Logo" />
           </div>
           </div>
 </>
