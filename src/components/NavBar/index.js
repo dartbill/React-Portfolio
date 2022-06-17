@@ -9,7 +9,7 @@ import './style.css'
 export const NavBar = () => {
 
     return (
-        <nav className='container'>
+        <nav className='Navcontainer'>
         {/* <a href='//getfutureproof.co.uk/' target="_blank" rel="noopener noreferrer"> futureproof </a> */}
         <NavLink to='/'>Home</NavLink>
         <NavLink to='/about'>About</NavLink>

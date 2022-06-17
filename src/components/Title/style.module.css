@@ -1,0 +1,28 @@
+
+.homepage{
+    display: flex;
+    position: relative;
+    margin-left: 20%; 
+    margin-right: auto;
+    text-align: left;
+    font-size: 100px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vw;
+}
+
+.paraContainer{
+    display: block;
+    margin-top: 3vw;
+    height: 30vh;
+}
+
+.para{
+    margin-top: 0;
+    margin-left: 21%;
+    font-family: 'Josefin Sans', sans-serif;
+}

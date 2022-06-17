@@ -6,7 +6,7 @@ import "./style.css"
 
 export const Header = () => {
     return(
-        <nav className="container">
+        <nav >
             <NavBar/>
         </nav>
     )

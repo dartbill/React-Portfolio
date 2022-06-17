@@ -1,0 +1,23 @@
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 2px 8px 0 rgb(255, 255, 255);
+    transition: 0.3s;
+  }
+
+  
+.text{
+    text-align: center; 
+}
+
+.link{
+    position: absolute;
+    bottom: 0;
+}
+
+  .container {
+    width: 400px;
+    height: 400px;
+    background-color: aliceblue;
+    padding: 2px 16px;
+    position: relative;
+}
