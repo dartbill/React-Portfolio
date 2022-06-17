@@ -9,6 +9,7 @@ export const HomePage = () => {
     <main>
       <title>Billie Dartnell</title> 
       <Components.Title/>
+      <h2 className={styles.text} >A Few Projects</h2>
       <div className={styles.cardContainer}>
       <Components.PortfolioCard/>
       <Components.PortfolioCard/>

@@ -10,10 +10,10 @@ export const NavBar = () => {
     return (
         <nav className={styles.Navcontainer}>
         {/* <a href='//getfutureproof.co.uk/' target="_blank" rel="noopener noreferrer"> futureproof </a> */}
-        <NavLink to='/'>Home</NavLink>
-        <NavLink to='/about'>About</NavLink>
-        <NavLink to='/contact'>Contact</NavLink>
-        <NavLink to='/portfolio'>Portfolio</NavLink>
+        <NavLink className={styles.textColor} to='/'>Home</NavLink>
+        <NavLink className={styles.textColor} to='/about'>About</NavLink>
+        <NavLink className={styles.textColor} to='/contact'>Contact</NavLink>
+        <NavLink className={styles.textColor} to='/portfolio'>Portfolio</NavLink>
         {/* <BackButton /> */}
     </nav>  
     )

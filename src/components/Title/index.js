@@ -7,7 +7,7 @@ export const Title = () => {
 
     return (
     <>  
-    <div>
+    <div className={styles.mainContainer}>
 
     <div className={styles.container}>
         <h1 className={styles.homepage}  >Hi, </h1>

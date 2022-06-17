@@ -1,8 +1,16 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+.mainContainer{
+    margin-top:x;
+    height: 100vh;
+}
 
 .homepage{
     display: flex;
     position: relative;
-    margin-left: 20%; 
+    margin-left: 15%; 
     margin-right: auto;
     text-align: left;
     font-size: 100px;
@@ -18,11 +26,11 @@
 .paraContainer{
     display: block;
     margin-top: 3vw;
-    height: 30vh;
+    height: 40vh;
 }
 
 .para{
     margin-top: 0;
-    margin-left: 21%;
+    margin-left: 15%;
     font-family: 'Josefin Sans', sans-serif;
 }
