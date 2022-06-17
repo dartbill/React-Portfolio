@@ -1,43 +1,42 @@
-*{
-    font-family: 'Lato', sans-serif;
+* {
+  font-family: "Lato", sans-serif;
 }
 
-.mainContainer{
-    margin-left:15%;
-    height: 90vh;
-    align-items: flex-start;
+.mainContainer {
+  margin-left: 15%;
+  height: 100vh;
+  align-items: flex-start;
 }
 
-.homepage{
-    display: flex;
-    position: relative;
-    /* margin-left: auto;  */
-    margin-right: auto;
-    text-align: left;
-    font-size: 100px;
-    font-weight: 500;
-    font-family: 'Josefin Sans', sans-serif;
+.homepage {
+  display: flex;
+  position: relative;
+  /* margin-left: auto;  */
+  margin-right: auto;
+  text-align: left;
+  font-size: 100px;
+  font-weight: 500;
+  font-family: "Josefin Sans", sans-serif;
 }
 
-.colour{
-    color: #1CFEBA;
+.colour {
+  color: #1cfeba;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    margin-top: 8vw;
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8vw;
 }
 
-.paraContainer{
-    display: block;
-    width: 50%;
-    height: 40vh;
+.paraContainer {
+  display: block;
+  width: 50%;
+  height: 40vh;
 }
 
-.para{
-
-    margin-left: auto;
-    font-size: 20px;
-    font-family: 'Lato', sans-serif;
+.para {
+  margin-left: auto;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
 }
