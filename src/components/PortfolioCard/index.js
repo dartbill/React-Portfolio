@@ -1,14 +1,13 @@
 import React from 'react';
-// import { useNavigate } from 'react-router-dom';
-import { NavLink } from 'react-router-dom';
+
 import styles from './style.module.css'
+import img from "./smalltalk.png"
 
 export const PortfolioCard = () => {
 
     return (
         <>
                 <div  >
-                    {/* <img src="./imgs/smalltalk.png"  alt="A screengrab of my website smallTalk"> */}
                         <div className={`${styles.container} ${styles.text} ${styles.card}`}>
                             <h5 ><a href="https://smalltalkapp.netlify.app/" >SmallTalk</a></h5>
                             <p >A simple anon journal site made in a team. I was involved in both the front-end and back-end of this project</p>
