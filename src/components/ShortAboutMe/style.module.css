@@ -1,14 +1,14 @@
 .container{
     position: relative;
     width: 30vw;
-    margin-left: 10%;
+    margin-left: auto;
 }
 
 .imgContainer{
     display: flex;
     position: relative;
     justify-content: space-between;
-    height: 100vh;
+    height: 70vh;
 }
 
 .title{
