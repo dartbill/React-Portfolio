@@ -1,22 +1,43 @@
 .card {
-    box-shadow: 0 2px 8px 0 rgb(255, 255, 255);
-    transition: 0.3s;
-    background-image: url("smalltalk.png");
-  }
-
-.text{
-    text-align: center; 
+  box-shadow: 0 2px 8px 0 rgb(255, 255, 255);
+  transition: 0.3s;
+  position: absolute;
 }
 
-.link{
-    position: absolute;
-    bottom: 0;
+/* .smallBgImg {
+  background-image: url("smalltalk.png");
+} */
+
+.habitBgImg {
+  background-image: url("rabbithabits.png");
 }
 
-  .container {
-    width: 350px;
-    height: 350px;
-    background-color: aliceblue;
-    padding: 2px 16px;
-    position: relative;
+.imgs {
+  height: 350px;
+  width: 350px;
+  position: absolute;
+  z-index: 1;
+}
+
+.imgs:hover {
+  opacity: 0;
+  transition: .5s;
+}
+
+.text {
+  position: absolute;
+  text-align: center;
+}
+
+.link {
+  bottom: 0;
+}
+
+.container {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  background-color: aliceblue;
+  padding: 2px 16px;
+  position: relative;
 }
