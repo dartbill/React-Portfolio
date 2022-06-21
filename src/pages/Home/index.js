@@ -6,10 +6,10 @@ import styles from "./style.module.css";
 import pic from './smalltalk.png'
 import rabbit from './rabbithabits.png'
 
-export const HomePage = () => {
+export const HomePage = ({ about }) => {
   return (
     <>
-      <div className={styles.snapContainer}>
+      < div className={styles.snapContainer}>
         <title>Billie Dartnell</title>
 
         <section className={styles.scrollSection}>
@@ -28,8 +28,8 @@ export const HomePage = () => {
         {/* <section className={styles.scrollSection}>
           <Components.MoreProjectsBtn />
         </section> */}
-
-        <section className={styles.scrollSection}>
+        {console.log("this is from the page" + about)}
+        <section ref={about} className={styles.scrollSection}>
           <Components.ShortAboutMe />
         </section>
 

@@ -4,13 +4,16 @@ import { NavLink } from "react-router-dom";
 import styles from "./style.module.css";
 
 export const NavBar = ({ about, contact, portfolio }) => {
-  console.log(about)
   const scrollDown = (ref) => {
+    console.log("scrolldown is called")
+    console.log("ref is " + ref.current)
     console.log(ref)
-    window.scrollTo({
-      top: ref.current.offsetTop,
-      behavior: "smooth",
-    });
+    const options = { behavior: 'smooth' }
+    // window.scrollTo({
+    //   top: ref.current,
+    //   behavior: "smooth",
+    // });
+    ref.current.scrollIntoView(options)
   };
 
   return (
@@ -18,7 +21,7 @@ export const NavBar = ({ about, contact, portfolio }) => {
       <nav className={styles.Navcontainer}>
 
         <li onClick={() => {
-          console.log('hello')
+
           scrollDown(about)
         }}>About</li>
 

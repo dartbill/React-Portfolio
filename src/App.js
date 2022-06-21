@@ -11,11 +11,11 @@ function App() {
   const contact = useRef(null);
   const portfolio = useRef(null);
 
-  const Div = React.forwardRef((props, ref) => (
-    <div ref={ref} className="reference-div">
-      {props.children}
-    </div>
-  ));
+  // const Div = React.forwardRef((props, ref) => (
+  //   <div ref={ref} className="reference-div">
+  //     {props.children}
+  //   </div>
+  // ));
 
   return (
     <>
@@ -23,10 +23,11 @@ function App() {
         about={about}
         contact={contact}
         portfolio={portfolio} />
-      <Div ref={about}>
-        <Pages.HomePage />
-      </Div>
-      <Pages.AboutPage />
+
+
+      <Pages.HomePage about={about} />
+
+      {/* <Pages.AboutPage /> */}
     </>
   );
 }
