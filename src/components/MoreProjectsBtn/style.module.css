@@ -1,4 +1,4 @@
-.container{
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,10 +12,17 @@
     text-decoration: none;
     background-color: #1CFEBA;
     color: #333333;
-    margin:auto;
-    padding: 2px 6px 2px 6px;
+    margin: auto;
+    padding: 10px 6px 10px 6px;
+    border-radius: 10%/30%;
     border-top: 1px solid #1CFEBA;
     border-right: 1px solid #1CFEBA;
     border-bottom: 1px solid #1CFEBA;
     border-left: 1px solid #1CFEBA;
-  }
+    font-size: 20px;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    transition: .4s;
+}

@@ -1,15 +1,7 @@
-.card {
-  box-shadow: 0 2px 8px 0 rgb(255, 255, 255);
-  transition: 0.3s;
-  position: absolute;
-}
+.something:hover {
+  transform: scale(1.05);
+  transition: .5s;
 
-/* .smallBgImg {
-  background-image: url("smalltalk.png");
-} */
-
-.habitBgImg {
-  background-image: url("rabbithabits.png");
 }
 
 .imgs {
@@ -17,27 +9,50 @@
   width: 350px;
   position: absolute;
   z-index: 1;
+  border-radius: 2%;
+  opacity: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.imgs:hover {
-  opacity: 0;
-  transition: .5s;
+
+.something:hover .images {
+  filter: blur(1px)
+}
+
+
+.text:hover {
+  opacity: 1;
+  background-color: rgba(27, 27, 27, 0.7);
+  transition: .3s;
 }
 
 .text {
   position: absolute;
+  opacity: 0;
+  z-index: 2;
   text-align: center;
+
 }
 
 .link {
+  color: white;
   bottom: 0;
+  background: none;
+  text-decoration: none;
+}
+
+
+
+.noBG {
+  background: none;
 }
 
 .container {
+  text-align: center;
   position: relative;
   width: 350px;
   height: 350px;
-  background-color: aliceblue;
   padding: 2px 16px;
-  position: relative;
 }
