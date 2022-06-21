@@ -1,11 +1,14 @@
-import React from "react";
 import { NavBar } from "../../components";
 
 
-export const Header = () => {
+export const Header = ({ about, contact, portfolio }) => {
+
   return (
     <>
-      <NavBar />
+      <NavBar
+        about={about}
+        contact={contact}
+        portfolio={portfolio} />
     </>
   );
 };

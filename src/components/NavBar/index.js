@@ -3,14 +3,28 @@ import { NavLink } from "react-router-dom";
 
 import styles from "./style.module.css";
 
-export const NavBar = () => {
+export const NavBar = ({ about, contact, portfolio }) => {
+  console.log(about)
+  const scrollDown = (ref) => {
+    console.log(ref)
+    window.scrollTo({
+      top: ref.current.offsetTop,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className={styles.scrollSection}>
       <nav className={styles.Navcontainer}>
-        {/* <a href='//getfutureproof.co.uk/' target="_blank" rel="noopener noreferrer"> futureproof </a> */}
-        <NavLink className={styles.textColor} to="/">
+
+        <li onClick={() => {
+          console.log('hello')
+          scrollDown(about)
+        }}>About</li>
+
+        {/* <NavLink onClick={() => scrollDown(about)} className={styles.textColor} to="/">
           Home
-        </NavLink>
+        </NavLink> */}
         <NavLink className={styles.textColor} to="/about">
           About
         </NavLink>
