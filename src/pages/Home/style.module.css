@@ -20,11 +20,13 @@
   position: relative;
   max-height: 100vh;
   overflow-y: auto;
+  width: 100vw;
   scroll-snap-type: y mandatory;
 }
 
 .scrollSection {
   height: fit-content;
   scroll-snap-align: start;
-  padding-top: 4rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }

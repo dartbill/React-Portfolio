@@ -25,9 +25,9 @@ export const HomePage = () => {
           </div>
         </section>
 
-        <section className={styles.scrollSection}>
+        {/* <section className={styles.scrollSection}>
           <Components.MoreProjectsBtn />
-        </section>
+        </section> */}
 
         <section className={styles.scrollSection}>
           <Components.ShortAboutMe />
