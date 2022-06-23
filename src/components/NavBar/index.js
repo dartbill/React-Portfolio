@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 import styles from "./style.module.css";
 
@@ -14,17 +14,17 @@ export const NavBar = ({ home, about, contact, portfolio }) => {
     <div className={styles.scrollSection}>
       <nav className={styles.Navcontainer}>
 
-        <li onClick={() => {
+        <li className={styles.textColor} onClick={() => {
           scrollDown(home)
         }}>Home</li>
-        <li onClick={() => {
+        <li className={styles.textColor} onClick={() => {
           scrollDown(about)
         }}>About</li>
 
-        <li onClick={() => {
+        <li className={styles.textColor} onClick={() => {
           scrollDown(portfolio)
         }}>Portfolio</li>
-        <li onClick={() => {
+        <li className={styles.textColor} onClick={() => {
           scrollDown(contact)
         }}>Contact</li>
 

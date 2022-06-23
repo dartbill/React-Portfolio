@@ -36,6 +36,7 @@ export const HomePage = ({ home, about, contact, portfolio }) => {
 
         <section ref={contact} className={styles.scrollSection}>
           <Components.ContactMeBtn />
+          {/* <Components.ContactForm /> */}
         </section>
       </div>
     </>
