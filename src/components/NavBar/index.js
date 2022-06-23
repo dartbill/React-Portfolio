@@ -3,16 +3,10 @@ import { NavLink } from "react-router-dom";
 
 import styles from "./style.module.css";
 
-export const NavBar = ({ about, contact, portfolio }) => {
+export const NavBar = ({ home, about, contact, portfolio }) => {
   const scrollDown = (ref) => {
-    console.log("scrolldown is called")
-    console.log("ref is " + ref.current)
     console.log(ref)
     const options = { behavior: 'smooth' }
-    // window.scrollTo({
-    //   top: ref.current,
-    //   behavior: "smooth",
-    // });
     ref.current.scrollIntoView(options)
   };
 
@@ -21,23 +15,19 @@ export const NavBar = ({ about, contact, portfolio }) => {
       <nav className={styles.Navcontainer}>
 
         <li onClick={() => {
-
+          scrollDown(home)
+        }}>Home</li>
+        <li onClick={() => {
           scrollDown(about)
         }}>About</li>
 
-        {/* <NavLink onClick={() => scrollDown(about)} className={styles.textColor} to="/">
-          Home
-        </NavLink> */}
-        <NavLink className={styles.textColor} to="/about">
-          About
-        </NavLink>
-        <NavLink className={styles.textColor} to="/contact">
-          Contact
-        </NavLink>
-        <NavLink className={styles.textColor} to="/portfolio">
-          Portfolio
-        </NavLink>
-        {/* <BackButton /> */}
+        <li onClick={() => {
+          scrollDown(portfolio)
+        }}>Portfolio</li>
+        <li onClick={() => {
+          scrollDown(contact)
+        }}>Contact</li>
+
       </nav>
     </div>
   );

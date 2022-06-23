@@ -1,12 +1,13 @@
 import React, { useRef } from "react";
 import { Layout } from "./layout";
-import { Routes, Route } from "react-router-dom";
+// import { Routes, Route } from "react-router-dom";
 import * as Pages from "./pages";
 
 import "./app.css";
 
 function App() {
 
+  const home = useRef(null)
   const about = useRef(null);
   const contact = useRef(null);
   const portfolio = useRef(null);
@@ -20,12 +21,17 @@ function App() {
   return (
     <>
       <Layout
+        home={home}
         about={about}
         contact={contact}
         portfolio={portfolio} />
 
 
-      <Pages.HomePage about={about} />
+      <Pages.HomePage
+        home={home}
+        about={about}
+        contact={contact}
+        portfolio={portfolio} />
 
       {/* <Pages.AboutPage /> */}
     </>
