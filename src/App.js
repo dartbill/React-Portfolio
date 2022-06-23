@@ -33,7 +33,6 @@ function App() {
         contact={contact}
         portfolio={portfolio} />
 
-      {/* <Pages.AboutPage /> */}
     </>
   );
 }

@@ -4,8 +4,11 @@ import React from "react";
 import styles from "./style.module.css";
 
 export const NavBar = ({ home, about, contact, portfolio }) => {
+
+
+
   const scrollDown = (ref) => {
-    console.log(ref)
+
     const options = { behavior: 'smooth' }
     ref.current.scrollIntoView(options)
   };
