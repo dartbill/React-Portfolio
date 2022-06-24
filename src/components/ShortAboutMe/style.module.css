@@ -27,6 +27,11 @@
     width: 600px
 }
 
+.para {
+    font-size: 22px;
+    margin-right: 30px;
+}
+
 @media screen and (max-width: 450px) {
     .imgContainer {
         flex-direction: column;
@@ -45,25 +50,28 @@
     }
 
     .imgSize {
-        width: 300px
+        width: 300px;
     }
 
     .imgs {
         margin-right: 10%;
-
+        /* width: 300px; */
         margin-left: 10%;
     }
+
 }
 
 @media screen and (max-width: 900px) {
     .imgContainer {
         flex-direction: column;
+        height: 45vh;
     }
 
     .title {
-        font-size: 55px;
+        font-size: 45px;
         margin-left: 30px;
         margin-right: 30px;
+        margin-bottom: 20px;
     }
 
     .container {
@@ -72,14 +80,15 @@
         margin-right: 40px;
     }
 
-    .imgSize {
-        width: 600px
-    }
 
     .imgs {
         margin-right: auto;
-
         margin-left: auto;
+    }
+
+    .para {
+        margin-left: 30px;
+        margin-right: 30px;
     }
 
 }

@@ -42,12 +42,24 @@
 }
 
 @media screen and (max-width: 450px) {
+  .container {
+    margin-top: 100px;
+  }
+
   .homepage {
-    font-size: 60px
+    font-size: 50px;
+    margin-top: 10px
   }
 
   .para {
     font-size: 15px;
+  }
+
+  .paraContainer {
+    margin-top: 40px;
+    display: block;
+    width: 80%;
+    height: 20vh;
   }
 }
 
@@ -58,5 +70,12 @@
 
   .para {
     font-size: 20px;
+  }
+
+  .paraContainer {
+    margin-top: 40px;
+    display: block;
+    width: 80%;
+    height: 20vh;
   }
 }

@@ -33,3 +33,14 @@
     transform: scale(1.1);
     transition: .4s;
 }
+
+
+@media screen and (max-width: 450px) {
+    .text {
+
+        font-size: 45px;
+        ;
+    }
+}
+
+@media screen and (max-width: 900px) {}

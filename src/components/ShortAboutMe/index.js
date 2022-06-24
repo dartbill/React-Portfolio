@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 
 import styles from './style.module.css'
 import img from "./IMG_3721.png"
@@ -17,8 +17,8 @@ export const ShortAboutMe = () => {
 
                         <div>
                             <div>
-                                <p>Outside of work I am an avid gym-goer and have completed two tough mudders, I love to read and anything to do with photography and drawing as well as just relaxing, watching my favourite series’ with my cats. I love to travel, my favourite place I have been so far has been Venice with Greece being a close second if only because of the weather!</p>
-                                <p>Skills at a glance
+                                <p className={styles.para} >Outside of work I am an avid gym-goer and have completed two tough mudders, I love to read and anything to do with photography and drawing as well as just relaxing, watching my favourite series’ with my cats. I love to travel, my favourite place I have been so far has been Venice with Greece being a close second if only because of the weather!</p>
+                                <p className={styles.para}>Skills at a glance
                                     Command Line Interface
 
                                     Git/GitHub
