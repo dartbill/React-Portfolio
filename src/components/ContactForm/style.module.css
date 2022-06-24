@@ -12,6 +12,13 @@
     display: flex;
 }
 
+.labelsmall {
+    text-align: start;
+    margin-top: 20px;
+    width: 100%;
+    display: none;
+}
+
 .something {
     display: flex;
     justify-content: space-between;
@@ -20,13 +27,11 @@
 .input {
     width: 50%;
     margin-top: 10px;
-
 }
 
 .input:not(:first-child) {
     margin-left: 30px
 }
-
 
 .font {
     font-size: 20px;
@@ -40,7 +45,6 @@
     text-decoration: none;
     background-color: #1CFEBA;
     color: #333333;
-    /* margin: auto; */
     margin-top: 20px;
     padding: 10px 6px 10px 6px;
     border-radius: 10%/30%;
@@ -60,3 +64,50 @@
     margin-top: 20px;
     width: 100%;
 }
+
+.labelmessage {
+    text-align: start;
+    margin-top: 20px;
+    width: 100%;
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        width: auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .label {
+        display: none;
+    }
+
+    .font {
+        font-size: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .input {
+        width: 100%;
+        margin-top: 10px;
+        /* padding-left: 20px;
+        padding-right: 20px; */
+    }
+
+    .form {
+        font-size: 15px;
+        width: 70%;
+    }
+
+    .input:not(:first-child) {
+        margin-left: 0
+    }
+
+    .labelsmall {
+        display: block;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 900px) {}

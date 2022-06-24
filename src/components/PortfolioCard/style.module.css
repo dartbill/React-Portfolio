@@ -1,7 +1,6 @@
 .something:hover {
   transform: scale(1.05);
   transition: .5s;
-
 }
 
 .imgs {
@@ -14,13 +13,12 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 20px;
 }
-
 
 .something:hover .images {
   filter: blur(1px)
 }
-
 
 .text:hover {
   opacity: 1;
@@ -33,7 +31,6 @@
   opacity: 0;
   z-index: 2;
   text-align: center;
-
 }
 
 .link {
@@ -42,8 +39,6 @@
   background: none;
   text-decoration: none;
 }
-
-
 
 .noBG {
   background: none;
@@ -54,5 +49,34 @@
   position: relative;
   width: 350px;
   height: 350px;
-  padding: 2px 16px;
+  /* padding: 2px 16px; */
 }
+
+
+@media screen and (max-width: 450px) {
+
+  .container {
+    height: 250px;
+    width: 250px;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .imgs {
+    height: 250px;
+    width: 250px;
+
+  }
+
+  .text {
+    font-size: 10px;
+  }
+
+
+
+}
+
+@media screen and (max-width: 900px) {}

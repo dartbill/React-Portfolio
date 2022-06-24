@@ -40,7 +40,7 @@ export const ShortAboutMe = () => {
                     </div>
 
                     <div className={styles.imgs} >
-                        <img src={img} width="600" alt="Logo" />
+                        <img className={styles.imgSize} src={img} alt="Logo" />
                     </div>
                 </div>
             </div>
