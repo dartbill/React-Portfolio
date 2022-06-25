@@ -31,7 +31,10 @@
 .input {
     width: 50%;
     margin-top: 10px;
-    border: none;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 3px solid #1b1b1b;
     cursor: pointer;
 }
 
@@ -62,7 +65,7 @@
 
 .message {
     margin-top: 20px;
-    border: none;
+    border: 3px solid #1b1b1b;
     /* Increased margin since the outline expands outside the element */
 }
 
