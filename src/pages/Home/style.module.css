@@ -13,7 +13,8 @@
   margin-bottom: 6%;
   font-size: 60px;
   font-family: 'Poppins', sans-serif;
-  color: #1cfeba;
+  /* color: #1cfeba; */
+  border-bottom: 3px solid #1CFEBA;
 }
 
 .snapContainer {
@@ -31,6 +32,10 @@
   padding-bottom: 8rem;
 }
 
+.titlecontainer {
+  display: flex;
+  justify-content: center;
+}
 
 @media screen and (max-width: 450px) {
   .cardContainer {
