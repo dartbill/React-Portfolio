@@ -14,7 +14,9 @@ export const PortfolioCard = ({ img, website, link, title, info, programs }) => 
                         <h5 className={`${styles.noBG} ${styles.cardTitle}`} > <a className={styles.noBG} href={website} >{title}</a></h5>
                         <p className={styles.noBG}> {info}</p>
                         <p className={styles.noBG}> {programs}</p>
-                        <a className={styles.link} href={link} >A link to the code</a>
+                        <div className={styles.linkContainer}>
+                            <a className={styles.link} href={link} >To the code!</a>
+                        </div>
                     </div>
                 </div>
             </div>

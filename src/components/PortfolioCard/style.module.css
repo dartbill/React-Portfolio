@@ -11,6 +11,8 @@
   font-size: 30px;
   margin-bottom: 20px;
   margin-top: 0;
+
+
 }
 
 .imgs {
@@ -43,7 +45,14 @@
   text-align: center;
 }
 
+.linkContainer {
+  display: flex;
+  justify-content: center;
+}
+
 .link {
+  text-align: center;
+  position: absolute;
   color: white;
   bottom: 0;
   background: none;
@@ -56,6 +65,7 @@
 
 .noBG {
   background: none;
+  text-decoration-color: #1CFEBA;
 }
 
 .container {
