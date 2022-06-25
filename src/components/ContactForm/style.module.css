@@ -35,7 +35,7 @@
     border-right: none;
     border-left: none;
     border-top: none;
-    border-bottom: 3px solid #b0b0b0;
+    border-bottom: 3px solid #ffffff;
     cursor: pointer;
 }
 
@@ -72,8 +72,7 @@
 
 .message {
     margin-top: 20px;
-    border: 3px solid #b0b0b0;
-    /* Increased margin since the outline expands outside the element */
+    border: 3px solid #ffffff;
 }
 
 .label {
