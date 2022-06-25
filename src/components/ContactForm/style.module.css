@@ -9,6 +9,7 @@
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 50px;
     width: 50%;
 }
 
@@ -34,7 +35,7 @@
     border-right: none;
     border-left: none;
     border-top: none;
-    border-bottom: 3px solid #1b1b1b;
+    border-bottom: 3px solid #b0b0b0;
     cursor: pointer;
 }
 
@@ -71,7 +72,7 @@
 
 .message {
     margin-top: 20px;
-    border: 3px solid #1b1b1b;
+    border: 3px solid #b0b0b0;
     /* Increased margin since the outline expands outside the element */
 }
 
@@ -93,28 +94,14 @@
 
 /* .input:hover {
     border-bottom: 3px solid #1CFEBA;
-    border-width: 5px;
-    transition: width 0.3s linear 0.3s;
 } */
 
-
-/* .input:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #1CFEBA;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-} */
-
+.input:focus,
 .input:hover {
     border-bottom: 3px solid #1CFEBA;
 }
 
+.message:focus,
 .message:hover {
     border-left: 3px solid #1CFEBA;
     border: 3px solid #1CFEBA;
