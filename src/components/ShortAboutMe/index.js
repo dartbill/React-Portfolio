@@ -1,7 +1,7 @@
 import React from 'react'
 
 import styles from './style.module.css'
-import img from "./IMG_3721.png"
+import img from "./aboutme.png"
 
 
 export const ShortAboutMe = () => {

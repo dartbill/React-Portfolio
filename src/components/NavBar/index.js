@@ -19,17 +19,17 @@ export const NavBar = ({ home, about, contact, portfolio }) => {
 
         <li className={`${styles.textColor} ${styles.hoverunderlineanimation}`} onClick={() => {
           scrollDown(home)
-        }}>Home</li>
+        }}>home</li>
         <li className={`${styles.textColor} ${styles.hoverunderlineanimation}`} onClick={() => {
           scrollDown(about)
-        }}>About</li>
+        }}>about</li>
 
         <li className={`${styles.textColor} ${styles.hoverunderlineanimation}`} onClick={() => {
           scrollDown(portfolio)
-        }}>Projects</li>
+        }}>projects</li>
         <li className={`${styles.textColor} ${styles.hoverunderlineanimation}`} onClick={() => {
           scrollDown(contact)
-        }}>Contact</li>
+        }}>contact</li>
 
       </nav>
     </div>

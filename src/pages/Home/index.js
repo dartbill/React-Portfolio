@@ -1,8 +1,8 @@
 import * as Components from "../../components";
 import styles from "./style.module.css";
 
-import pic from './smalltalk.png'
-import rabbit from './rabbithabits.png'
+import pic from './smallTalk.png'
+import rabbit from './something.png'
 
 export const HomePage = ({ home, about, contact, portfolio }) => {
 
@@ -38,6 +38,7 @@ export const HomePage = ({ home, about, contact, portfolio }) => {
 
   return (
     <>
+
       <div className={styles.snapContainer}>
         <title>Billie Dartnell</title>
 

@@ -3,6 +3,8 @@ import { Layout } from "./layout";
 // import { Routes, Route } from "react-router-dom";
 import * as Pages from "./pages";
 
+
+
 import "./app.css";
 
 function App() {
@@ -12,12 +14,6 @@ function App() {
   const contact = useRef(null);
   const portfolio = useRef(null);
 
-  // const Div = React.forwardRef((props, ref) => (
-  //   <div ref={ref} className="reference-div">
-  //     {props.children}
-  //   </div>
-  // ));
-
   return (
     <>
       <Layout
@@ -25,7 +21,6 @@ function App() {
         about={about}
         contact={contact}
         portfolio={portfolio} />
-
 
       <Pages.HomePage
         home={home}

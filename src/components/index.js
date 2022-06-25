@@ -5,4 +5,5 @@ export { ShortAboutMe } from './ShortAboutMe';
 export { ContactMeBtn } from './ContactMeBtn';
 export { ContactForm } from './ContactForm';
 export { MoreProjectsBtn } from './MoreProjectsBtn';
+export { Bg } from "./Background"
 
