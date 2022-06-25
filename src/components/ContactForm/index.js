@@ -30,12 +30,14 @@ export const ContactForm = () => {
             </div>
             <div className={styles.container}>
                 <label className={styles.labelsmall} name="user_name">Name:</label>
-                <input className={`${styles.input} ${styles.font}`} id="username" type="text" name="user_name" placeholder='Input Name' />
+                <input className={`${styles.input} ${styles.font}`} id="username" type="text" name="user_name" placeholder='Input Name' required />
+
                 <label className={styles.labelsmall} name="user_email">Email:</label>
-                <input className={`${styles.input} ${styles.font}`} id="userEmail" type="email" name="user_email" placeholder='Input Email Address' />
+                <input className={`${styles.input} ${styles.font}`} id="userEmail" type="email" name="user_email" placeholder='Input Email Address' required />
+
             </div>
             <label className={styles.labelmessage}>Message:</label>
-            <textarea className={`${styles.font} ${styles.message}`} rows="4" id="message" name="message" placeholder='Send me a message!' />
+            <textarea className={`${styles.font} ${styles.message}`} rows="4" id="message" name="message" placeholder='Send me a message!' required />
             <div>
                 <input className={`${styles.font} ${styles.button}`} type="submit" value="Send" />
             </div>

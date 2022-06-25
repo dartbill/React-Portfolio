@@ -1,6 +1,6 @@
 .container {
     position: relative;
-    width: 30vw;
+    width: 35vw;
     margin-left: auto;
 }
 
@@ -14,7 +14,7 @@
 .title {
     text-align: center;
     font-size: 60px;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     font-family: 'Josefin Sans', sans-serif;
     color: #1CFEBA;
 }
@@ -24,7 +24,7 @@
 }
 
 .imgSize {
-    width: 600px
+    width: 650px
 }
 
 .para {
