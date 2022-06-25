@@ -51,16 +51,22 @@
 .button {
     width: 150px;
     text-decoration: none;
-    background-color: #1CFEBA;
-    color: #333333;
+    /* background-color: #1CFEBA; */
+    background-color: none;
+    /* color: #333333; */
     margin-top: 20px;
     padding: 10px 6px 10px 6px;
     border-radius: 10%/30%;
-    border-top: 1px solid #1CFEBA;
-    border-right: 1px solid #1CFEBA;
-    border-bottom: 1px solid #1CFEBA;
-    border-left: 1px solid #1CFEBA;
+    border-top: 3px solid #1CFEBA;
+    border-right: 3px solid #1CFEBA;
+    border-bottom: 3px solid #1CFEBA;
+    border-left: 3px solid #1CFEBA;
     font-size: 20px;
+}
+
+.button:hover {
+    background-color: #1CFEBA;
+    color: #1b1b1b;
 }
 
 .message {
