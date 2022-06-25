@@ -17,6 +17,9 @@
   font-size: 100px;
   font-weight: 500;
   font-family: "Josefin Sans", sans-serif;
+  animation-name: title;
+  animation-duration: 1.6s;
+  animation-timing-function: linear;
 }
 
 .colour {
@@ -33,6 +36,12 @@
   display: block;
   width: 50%;
   height: 40vh;
+  animation-name: title;
+  animation-duration: 1.6s;
+  animation-timing-function: linear;
+  animation-delay: .8s;
+  animation-fill-mode: both;
+
 }
 
 .para {
@@ -60,6 +69,7 @@
     display: block;
     width: 80%;
     height: 20vh;
+
   }
 }
 
@@ -77,5 +87,22 @@
     display: block;
     width: 80%;
     height: 20vh;
+  }
+}
+
+@keyframes title {
+  0% {
+    opacity: 0;
+    transform: translateY(20%);
+  }
+
+  60% {
+    opacity: 0.85;
+    transform: translateY(-2px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
   }
 }

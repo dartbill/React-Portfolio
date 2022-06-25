@@ -20,3 +20,27 @@
   text-decoration: none;
   margin-block: 10px;
 }
+
+.hoverunderlineanimation {
+  display: inline-block;
+  position: relative;
+  /* color: #0087ca; */
+}
+
+.hoverunderlineanimation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #1CFEBA;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hoverunderlineanimation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}

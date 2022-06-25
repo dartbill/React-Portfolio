@@ -1,5 +1,5 @@
 import React from "react";
-// import { NavLink } from "react-router-dom";
+
 
 import styles from "./style.module.css";
 
@@ -17,17 +17,17 @@ export const NavBar = ({ home, about, contact, portfolio }) => {
     <div className={styles.scrollSection}>
       <nav className={styles.Navcontainer}>
 
-        <li className={styles.textColor} onClick={() => {
+        <li className={`${styles.textColor} ${styles.hoverunderlineanimation}`} onClick={() => {
           scrollDown(home)
         }}>Home</li>
-        <li className={styles.textColor} onClick={() => {
+        <li className={`${styles.textColor} ${styles.hoverunderlineanimation}`} onClick={() => {
           scrollDown(about)
         }}>About</li>
 
-        <li className={styles.textColor} onClick={() => {
+        <li className={`${styles.textColor} ${styles.hoverunderlineanimation}`} onClick={() => {
           scrollDown(portfolio)
         }}>Portfolio</li>
-        <li className={styles.textColor} onClick={() => {
+        <li className={`${styles.textColor} ${styles.hoverunderlineanimation}`} onClick={() => {
           scrollDown(contact)
         }}>Contact</li>
 

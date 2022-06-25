@@ -1,4 +1,7 @@
-* {
+*,
+*::after,
+*::before {
+  margin: 0;
   background: #1b1b1b;
   color: white;
   height: fit-content
