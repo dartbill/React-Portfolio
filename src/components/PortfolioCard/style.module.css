@@ -8,11 +8,9 @@
 }
 
 .cardTitle {
-  font-size: 30px;
+  font-size: 35px;
   margin-bottom: 20px;
   margin-top: 0;
-
-
 }
 
 .imgs {
@@ -20,7 +18,7 @@
   width: 350px;
   position: absolute;
   z-index: 1;
-  border-radius: 2%;
+  border-radius: 3%;
   opacity: 1;
   background-position: center;
   background-repeat: no-repeat;
@@ -57,6 +55,7 @@
   bottom: 0;
   background: none;
   text-decoration: none;
+  margin-bottom: 15px;
 }
 
 .setWidth {
