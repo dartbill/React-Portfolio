@@ -3,12 +3,14 @@
     position: absolute;
     z-index: 10;
     margin-top: 10px;
+
 }
 
-i {
-    font-size: 30px;
-}
+/* .imgs {
+    font-size: 10px
+} */
 
-a {
+.links {
     text-decoration: none;
+    font-size: 30px;
 }
