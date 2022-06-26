@@ -63,6 +63,7 @@ i {
 @media screen and (max-width: 450px) {
     .imgContainer {
         flex-direction: column;
+        height: fit-content;
     }
 
     .title {
@@ -90,12 +91,26 @@ i {
         margin-left: 10%;
     }
 
+    .para {
+        font-size: 18px;
+    }
+
+    .para2 {
+        font-size: 18px;
+
+    }
+
+    .iconContainer {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
 }
 
 @media screen and (max-width: 900px) {
     .imgContainer {
         flex-direction: column;
-        height: 45vh;
+        height: fit-content;
     }
 
     .title {
