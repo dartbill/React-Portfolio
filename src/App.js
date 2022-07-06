@@ -1,6 +1,8 @@
+
 import React, { useRef } from "react";
 import { Layout } from "./layout";
 // import { Routes, Route } from "react-router-dom";
+
 import * as Pages from "./pages";
 
 
@@ -16,6 +18,7 @@ function App() {
 
   return (
     <>
+
       <div id="page-wrap">
         <Layout
           home={home}
@@ -29,6 +32,7 @@ function App() {
           contact={contact}
           portfolio={portfolio} />
       </div>
+
     </>
   );
 }
