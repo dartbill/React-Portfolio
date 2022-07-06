@@ -1,7 +1,7 @@
 import * as Components from "../../components";
 import styles from "./style.module.css";
 
-import pic from './smallTalk.png'
+import pic from './smalltalk.png'
 import rabbit from './something.png'
 import logo from './logoNoText.png'
 
