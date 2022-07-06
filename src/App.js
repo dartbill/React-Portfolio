@@ -16,18 +16,19 @@ function App() {
 
   return (
     <>
-      <Layout
-        home={home}
-        about={about}
-        contact={contact}
-        portfolio={portfolio} />
+      <div id="page-wrap">
+        <Layout
+          home={home}
+          about={about}
+          contact={contact}
+          portfolio={portfolio} />
 
-      <Pages.HomePage
-        home={home}
-        about={about}
-        contact={contact}
-        portfolio={portfolio} />
-
+        <Pages.HomePage
+          home={home}
+          about={about}
+          contact={contact}
+          portfolio={portfolio} />
+      </div>
     </>
   );
 }
