@@ -1,25 +1,141 @@
-.container{
+.container {
     position: relative;
-    width: 30vw;
+    width: 35vw;
     margin-left: auto;
 }
 
-.imgContainer{
+.imgContainer {
     display: flex;
     position: relative;
     justify-content: space-between;
     height: 70vh;
 }
 
-.title{
-    text-align: center;
-    font-size: 60px;
-    margin-bottom: 10%;
-    font-family: 'Josefin Sans', sans-serif;
-    color: #1CFEBA;
+.titlecontainer {
+    display: flex;
+    justify-content: center;
 }
 
-.imgs{
+.title {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 5%;
+    font-family: 'Poppins', sans-serif;
+    /* color: white; */
+    border-bottom: 3px solid #1CFEBA;
+}
 
+.imgs {
     margin-right: 15%;
+}
+
+.imgSize {
+    width: 650px;
+    border-radius: 15px;
+}
+
+.para {
+    font-size: 22px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.para2 {
+    font-size: 22px;
+    margin-right: 30px;
+    margin-top: 30px
+}
+
+.iconContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 30px;
+    margin-top: 70px;
+    font-size: 50px;
+}
+
+i {
+    margin: 10px;
+
+}
+
+@media screen and (max-width: 450px) {
+    .imgContainer {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .title {
+        font-size: 35px;
+        margin-left: 30px;
+        margin-right: 30px;
+        width: fit-content;
+        border-bottom: 3px solid #1CFEBA;
+        border-width: 3px;
+    }
+
+    .container {
+        width: auto;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .imgSize {
+        width: 300px;
+    }
+
+    .imgs {
+        margin-right: 10%;
+        /* width: 300px; */
+        margin-left: 10%;
+    }
+
+    .para {
+        font-size: 18px;
+    }
+
+    .para2 {
+        font-size: 18px;
+
+    }
+
+    .iconContainer {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .imgContainer {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .title {
+        font-size: 45px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 20px;
+    }
+
+    .container {
+        width: auto;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+
+    .imgs {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .para {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
 }

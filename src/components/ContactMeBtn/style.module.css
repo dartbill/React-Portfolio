@@ -3,13 +3,20 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    height: 100vh;
+    /* height: 100vh; */
+}
+
+.titlecontainer {
+    display: flex;
+    justify-content: center;
 }
 
 .text {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 60px;
-    color: #1CFEBA;
+    /* color: #1CFEBA; */
+    margin-bottom: 100px;
+    border-bottom: 3px solid #1CFEBA;
 }
 
 .button {
@@ -33,3 +40,14 @@
     transform: scale(1.1);
     transition: .4s;
 }
+
+
+@media screen and (max-width: 450px) {
+    .text {
+
+        font-size: 45px;
+        ;
+    }
+}
+
+@media screen and (max-width: 900px) {}

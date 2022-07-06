@@ -3,10 +3,14 @@ import { Header } from './Header';
 // import { Footer } from './Footer';
 import { Outlet } from 'react-router-dom';
 
-export const Layout = () => (
+export const Layout = ({ home, about, contact, portfolio }) => (
     <>
-    <Header />
-    <Outlet />
+        <Header
+            home={home}
+            about={about}
+            contact={contact}
+            portfolio={portfolio} />
+        <Outlet />
 
     </>
 )

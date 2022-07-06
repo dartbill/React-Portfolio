@@ -1,7 +1,20 @@
 .something:hover {
   transform: scale(1.05);
   transition: .5s;
+}
 
+.something {
+  width: 350px
+}
+
+.cardTitle {
+  font-size: 35px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.programs {
+  margin-top: 40px;
 }
 
 .imgs {
@@ -9,18 +22,17 @@
   width: 350px;
   position: absolute;
   z-index: 1;
-  border-radius: 2%;
+  border-radius: 3%;
   opacity: 1;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 20px;
 }
-
 
 .something:hover .images {
   filter: blur(1px)
 }
-
 
 .text:hover {
   opacity: 1;
@@ -33,20 +45,30 @@
   opacity: 0;
   z-index: 2;
   text-align: center;
+}
 
+.linkContainer {
+  display: flex;
+  justify-content: center;
 }
 
 .link {
+  text-align: center;
+  position: absolute;
   color: white;
   bottom: 0;
   background: none;
   text-decoration: none;
+  margin-bottom: 15px;
 }
 
-
+.setWidth {
+  width: 350px;
+}
 
 .noBG {
   background: none;
+  text-decoration-color: #1CFEBA;
 }
 
 .container {
@@ -54,5 +76,70 @@
   position: relative;
   width: 350px;
   height: 350px;
-  padding: 2px 16px;
+}
+
+
+@media screen and (max-width: 450px) {
+
+  .container {
+    height: 250px;
+    width: 250px;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .imgs {
+    height: 250px;
+    width: 250px;
+
+  }
+
+  .cardTitle {
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 5px;
+  }
+
+  .text {
+    font-size: 15px;
+  }
+
+
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    height: 400px;
+    width: 400px;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
+
+  .imgs {
+    height: 400px;
+    width: 400px;
+
+  }
+
+  .cardTitle {
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 5px;
+  }
+
+  .text {
+    font-size: 15px;
+  }
+
+  .setWidth {
+    width: 350px;
+  }
+
+
 }
