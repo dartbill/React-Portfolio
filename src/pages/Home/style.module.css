@@ -77,3 +77,25 @@
 
 
 }
+
+@media screen and (max-width: 1300px) {
+  .cardContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+  }
+
+  .scrollSection {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .text {
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+}
