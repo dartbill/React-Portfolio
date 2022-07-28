@@ -67,7 +67,7 @@ export const HomePage = ({ home, about, contact, portfolio }) => {
 
             <Components.PortfolioCard
               img={rabbit} website="https://rabbit-habits.netlify.app/"
-              link="https://github.com/Aaron-Marsh/Lap2_project_client"
+              link="https://github.com/dartbill/Lap2_project_client"
               title="Rabbit Habits"
               info="A fun habit tracker made for mobiles where the user can keep track of multiple custom habits anda how frequently they would like to track the habit. There is also a feature to track the streak of the current habit."
               programs="JavaScript | HTML | CSS | Jest | Bootstrap | Sass | Express | MongoDB | Docker | Heroku | Netlify" />
