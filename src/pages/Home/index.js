@@ -4,6 +4,7 @@ import styles from "./style.module.css";
 import pic from './smalltalk.png'
 import rabbit from './something.png'
 import logo from './logoNoText.png'
+import sooki from './sookiText.png'
 
 export const HomePage = ({ home, about, contact, portfolio }) => {
 
@@ -77,6 +78,12 @@ export const HomePage = ({ home, about, contact, portfolio }) => {
               title="Quiz-Nado"
               info="A quiz game created with React that you can play by yourself or with someone. It stores highscores and displays the top 5 players"
               programs="JavaScript | HTML | CSS | Jest | Express | React | Redux | PostSQL | Docker | Heroku | Netlify" />
+            <Components.PortfolioCard website="https://digerati-meal-planner.netlify.app/"
+              img={sooki}
+              link="https://github.com/dartbill/meal_planner_backend"
+              title="Sooki"
+              info="A meal planner app that generates a random weekly meal plan based on user input. This website uses Spoonacular's API"
+              programs="JavaScript | HTML | CSS | Jest | Django | React | Redux | PostSQL | Docker | Heroku | Netlify" />
           </div>
         </section>
 
