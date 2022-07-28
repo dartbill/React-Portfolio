@@ -21,7 +21,7 @@ export const ShortAboutMe = () => {
                             <div>
                                 <p className={styles.para} >I am a graduate from Bournemouth university with a BA in Computer Animation and Technical Arts.<br></br>
                                     Outside of work I am an avid gym-goer and have completed two tough mudders, I love to read and anything to do with photography and drawing as well as just relaxing, watching my favourite series’ with my cats. <br></br>
-                                    I love to travel, my favourite place I have been so far has been Venice</p>
+                                    I love to travel, my favourite place I have been so far has been Venice!</p>
                                 {/* <p className={styles.para2}>Skills:</p> */}
                                 <div className={styles.iconContainer}>
                                     <i class="devicon-javascript-plain"></i>
